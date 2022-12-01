@@ -53,7 +53,7 @@ func IWasToldThereWouldBeNoMath() {
 	totalRibbonFt := 0
 
 	// path hardcoded and janky. but who cares
-	readFile, err := os.Open("./advent2015/2input.txt")
+	readFile, err := os.Open("../lib/2input.txt")
 
 	if err != nil {
 		fmt.Println(err)
